@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+    <title> Conversões</title>
+    <script type="text/javascript" src="js/new.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/new.css">
+</head>
+
+<body>
+    
+    <br />
+
+    <form style="border: 6px double yellow; background-color: #808080; padding: 4px;text-align:center;" name="convert">
+
+        <p size="40" class="inputlabel"> Fahrenheit </p>
+        <input type="text" name="ftemp" class="center" size="7" onchange="convertTemp('ftoc')">
+        <p size="40" class="inputlabel"> Celsius </p>
+        <input type="text" name="ctemp" class="center" size="7" onchange="convertTemp('ctof')">
+        <p size="40" class="inputlabel"> Kelvin </p>
+        <input type="text" name="ktemp" class="center" size="7" onchange="convertTemp('ktof')">
+        <br /><br />
+
+        <!--Clear Button-->
+        <input type="button" value="Limpar" class="center" style="height:75px;width:75px" onclick="clearAll();">
+        <br />
+
+    </form>
+</body>
+</html>
