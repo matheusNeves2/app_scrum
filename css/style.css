@@ -1,5 +1,5 @@
 body {
-	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+	background-image: linear-gradient(120deg, red 0%, purple 100%);
 }
 
 h1 {
@@ -11,17 +11,17 @@ h1 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 25%;
+	width: 30%; /*Tamanho da linha  */
 	text-align: center;
 }
 
 .inputlabel {
-	color: white;
-	font-family: Arial, Charcoal, sans-serif;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 24px;
-	text-align: center;
+	color: gainsboro; /* Cor das temperaturas */
+	font-family: Arial, Charcoal, sans-serif; /* Fonte das temperaturas */
+	font-weight: bold; 
+	font-size: 40px; /* Tamanho das temperaturas */
+	line-height: 24px; /*Como se fosse a extensão do quadrado */
+	text-align: center ;
 	text-justify: inter-word;
 	white-space: pre-wrap;
 }

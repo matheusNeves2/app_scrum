@@ -1,30 +1,41 @@
-<!DOCTYPE html> <!--Base do documento HTML-->
+<!DOCTYPE html>
+<!--Base do documento HTML-->
 <html lang="pt-br">
+
 <head>
     <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
-    <title> Conversoes</title> <!--Título da página do navegador-->
-    <script type="text/javascript" src="js/main.js"></script> <!--Lugar da onde esta puxando o js-->>
-    <link rel="stylesheet" type="text/css" href="css/style.css"> <!--Lugar da onde esta puxando o css-->
+    <title> Conversoes</title>
+    <!--Título da página do navegador-->
+    <script type="text/javascript" src="js/main.js"></script>
+    <!--Lugar da onde esta puxando o js-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Lugar da onde esta puxando o css-->
 </head>
 
 <body>
-    
+
     <br />
 
-    <form style="border: 6px double yellow; background-color: #808080; padding: 4px;text-align:center;" name="convert"><!--Mudar valores css do container que aparece na tela inicial-->
+    <form style="border: 6px double lime; background-color: darkslateblue; padding: 250px;text-align:center;">
+        <!--Mudar valores css do container que aparece na tela inicial-->
 
         <p size="40" class="inputlabel"> Fahrenheit </p>
-        <input type="text" name="ftemp" class="center" size="7" onchange="convertTemp('fprac')"> <!--Puxando a variável da function-->
+        <input type="text" name="ftemp" class="center" size="7" onchange="convertTemp('fprac')">
+        <!--Puxando a variável da function-->
         <p size="40" class="inputlabel"> Celsius </p>
-        <input type="text" name="ctemp" class="center" size="7" onchange="convertTemp('cpraf')"> <!--Puxando a variável da function-->
+        <input type="text" name="ctemp" class="center" size="7" onchange="convertTemp('cpraf')">
+        <!--Puxando a variável da function-->
         <p size="40" class="inputlabel"> Kelvin </p>
-        <input type="text" name="ktemp" class="center" size="7" onchange="convertTemp('kpraf')"> <!--Puxando a variável da function-->
+        <input type="text" name="ktemp" class="center" size="7" onchange="convertTemp('kpraf')">
+        <!--Puxando a variável da function-->
         <br /><br />
 
         <!--Botão par limpar os valores-->
-        <input type="button" value="Limpar" class="center" style="height:75px;width:75px" onclick="clearAll();"> <!--Valores css do botão que limpa-->
+        <input type="button" value="Limpar" class="center" style="height:75px;width:425px" onclick="clearAll();">
+        <!--Valores css do botão que limpa-->
         <br />
 
     </form>
 </body>
+
 </html>
